@@ -9,6 +9,7 @@ const Home = () => {
   console.log(isMobileView)
   return (
     <div
+      role="main"
       className={`bg-white rounded-[10px] flex ${
         isMobileView
           ? 'flex-col mx-[9px] my-[28px] w-[343px]'
@@ -24,9 +25,9 @@ const Home = () => {
         <div className="text-aurometalsaurus text-xs tracking-widest">
           PERFUME
         </div>
-        <div className="font-fancy mt-[20px] text-lg text-gunmetal">
+        <h1 className="font-fancy mt-[20px] text-lg text-gunmetal">
           Gabrielle Essence Eau De Parfum
-        </div>
+        </h1>
         <div className="text-m mt-[24px] text-aurometalsaurus">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
